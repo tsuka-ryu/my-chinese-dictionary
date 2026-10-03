@@ -32,4 +32,6 @@ description: Duolingoで学んだ中国語の単語・例文を data/words.json 
    - 例文が指定されていなければ、Duolingoの初級レベルに合う短い例文を1〜2個作る。例文は `zh` / `pinyin` / `ja` の3点セットにする。
 3. 配列の末尾に追加する。インデントは2スペースで、JSONとして正しいことを `python3 -m json.tool data/words.json > /dev/null` で確認する。
 4. 追加した単語を一覧で簡潔に報告する。ピンインや意味に自信がない箇所は、そう伝える。
-5. コミットする。メッセージは `Add words: 你好, 谢谢` のようにする。pushやPR作成は、ユーザーが頼んだとき、または開発ブランチの運用に従って行う。
+5. `main` にコミットして、そのまま `main` へ直接pushする(ユーザー許可済み。PRは不要)。メッセージは `Add words: 你好, 谢谢` のようにする。
+   - 作業ブランチにいる場合は、先に `git fetch origin main` して `main` に移るか、`git push origin HEAD:main` を使う。
+   - pushするとGitHub Pagesが自動で更新される(反映まで数分)。
