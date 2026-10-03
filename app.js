@@ -61,6 +61,3 @@ list.addEventListener("click", e => {
 
 // 音声一覧は非同期に読み込まれるブラウザがあるため、先に取得を促しておく
 if ("speechSynthesis" in window) speechSynthesis.getVoices();
-
-// ホーム画面に追加したアプリ表示ではブラウザの更新ボタンがないため、自前で用意する
-document.getElementById("reload").addEventListener("click", () => location.reload());
