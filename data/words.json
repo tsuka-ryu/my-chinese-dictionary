@@ -1,0 +1,20 @@
+[
+  {
+    "hanzi": "你好",
+    "pinyin": "nǐ hǎo",
+    "meaning": "こんにちは",
+    "unit": "基礎1",
+    "examples": [
+      { "zh": "你好，我叫小明。", "pinyin": "Nǐ hǎo, wǒ jiào Xiǎomíng.", "ja": "こんにちは、私はシャオミンといいます。" }
+    ]
+  },
+  {
+    "hanzi": "谢谢",
+    "pinyin": "xièxie",
+    "meaning": "ありがとう",
+    "unit": "基礎1",
+    "examples": [
+      { "zh": "谢谢你的帮助。", "pinyin": "Xièxie nǐ de bāngzhù.", "ja": "助けてくれてありがとう。" }
+    ]
+  }
+]

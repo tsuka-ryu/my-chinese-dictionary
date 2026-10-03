@@ -1,0 +1,22 @@
+:root { --bg:#fafafa; --card:#fff; --text:#222; --sub:#666; --accent:#58a700; --border:#e5e5e5; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#131f24; --card:#1f2c33; --text:#eee; --sub:#9ab; --border:#2f4048; }
+}
+* { box-sizing: border-box; }
+body { margin:0; padding:0 16px 48px; background:var(--bg); color:var(--text);
+  font-family:-apple-system,"Hiragino Sans","Noto Sans JP","Noto Sans SC",sans-serif; }
+header, main { max-width:720px; margin:0 auto; }
+h1 { margin:24px 0 4px; }
+header p { color:var(--sub); margin:4px 0; }
+#search { width:100%; padding:12px; margin:12px 0 4px; font-size:16px;
+  border:1px solid var(--border); border-radius:8px; background:var(--card); color:var(--text); }
+.card { background:var(--card); border:1px solid var(--border); border-radius:12px;
+  padding:16px; margin:12px 0; }
+.hanzi { font-size:28px; font-weight:bold; }
+.pinyin { color:var(--accent); margin-left:8px; }
+.meaning { margin:4px 0 8px; }
+.unit { font-size:12px; color:var(--sub); border:1px solid var(--border);
+  border-radius:99px; padding:1px 8px; margin-left:8px; }
+.ex { border-left:3px solid var(--accent); padding-left:10px; margin:8px 0; }
+.ex .zh { font-size:18px; }
+.ex .py, .ex .ja { color:var(--sub); font-size:14px; }
