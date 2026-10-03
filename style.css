@@ -23,3 +23,6 @@ header p { color:var(--sub); margin:4px 0; }
 .speak { border:1px solid var(--border); background:var(--card); border-radius:8px;
   padding:2px 8px; margin-left:4px; font-size:14px; cursor:pointer; vertical-align:middle; }
 .speak:hover { border-color:var(--accent); }
+.top { display:flex; align-items:center; justify-content:space-between; gap:12px; }
+#reload { border:1px solid var(--border); background:var(--card); border-radius:8px;
+  padding:6px 12px; font-size:18px; cursor:pointer; margin-top:20px; }

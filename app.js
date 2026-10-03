@@ -47,7 +47,7 @@ function filter() {
     JSON.stringify(w).toLowerCase().includes(q)));
 }
 
-fetch("data/words.json")
+fetch("data/words.json", { cache: "no-cache" })
   .then(r => r.json())
   .then(data => { words = data; filter(); })
   .catch(() => { list.textContent = "データを読み込めませんでした。"; });
@@ -61,3 +61,6 @@ list.addEventListener("click", e => {
 
 // 音声一覧は非同期に読み込まれるブラウザがあるため、先に取得を促しておく
 if ("speechSynthesis" in window) speechSynthesis.getVoices();
+
+// ホーム画面に追加したアプリ表示ではブラウザの更新ボタンがないため、自前で用意する
+document.getElementById("reload").addEventListener("click", () => location.reload());
