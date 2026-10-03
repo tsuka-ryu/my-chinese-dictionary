@@ -20,3 +20,6 @@ header p { color:var(--sub); margin:4px 0; }
 .ex { border-left:3px solid var(--accent); padding-left:10px; margin:8px 0; }
 .ex .zh { font-size:18px; }
 .ex .py, .ex .ja { color:var(--sub); font-size:14px; }
+.speak { border:1px solid var(--border); background:var(--card); border-radius:8px;
+  padding:2px 8px; margin-left:4px; font-size:14px; cursor:pointer; vertical-align:middle; }
+.speak:hover { border-color:var(--accent); }
