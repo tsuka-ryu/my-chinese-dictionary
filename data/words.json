@@ -5,7 +5,11 @@
     "meaning": "こんにちは",
     "unit": "基礎1",
     "examples": [
-      { "zh": "你好，我叫小明。", "pinyin": "Nǐ hǎo, wǒ jiào Xiǎomíng.", "ja": "こんにちは、私はシャオミンといいます。" }
+      {
+        "zh": "你好，我叫小明。",
+        "pinyin": "Nǐ hǎo, wǒ jiào Xiǎomíng.",
+        "ja": "こんにちは、私はシャオミンといいます。"
+      }
     ]
   },
   {
@@ -14,7 +18,447 @@
     "meaning": "ありがとう",
     "unit": "基礎1",
     "examples": [
-      { "zh": "谢谢你的帮助。", "pinyin": "Xièxie nǐ de bāngzhù.", "ja": "助けてくれてありがとう。" }
+      {
+        "zh": "谢谢你的帮助。",
+        "pinyin": "Xièxie nǐ de bāngzhù.",
+        "ja": "助けてくれてありがとう。"
+      }
+    ]
+  },
+  {
+    "hanzi": "咖啡",
+    "pinyin": "kāfēi",
+    "meaning": "コーヒー",
+    "unit": "セクション1 ユニット1",
+    "examples": [
+      {
+        "zh": "这是热咖啡。",
+        "pinyin": "Zhè shì rè kāfēi.",
+        "ja": "これは熱いコーヒーです。"
+      }
+    ]
+  },
+  {
+    "hanzi": "热",
+    "pinyin": "rè",
+    "meaning": "熱い、暑い",
+    "unit": "セクション1 ユニット1",
+    "examples": [
+      {
+        "zh": "这是热咖啡。",
+        "pinyin": "Zhè shì rè kāfēi.",
+        "ja": "これは熱いコーヒーです。"
+      }
+    ]
+  },
+  {
+    "hanzi": "米饭",
+    "pinyin": "mǐfàn",
+    "meaning": "ご飯",
+    "unit": "セクション1 ユニット1",
+    "examples": [
+      {
+        "zh": "米饭和水。",
+        "pinyin": "Mǐfàn hé shuǐ.",
+        "ja": "ご飯と水。"
+      }
+    ]
+  },
+  {
+    "hanzi": "水",
+    "pinyin": "shuǐ",
+    "meaning": "水",
+    "unit": "セクション1 ユニット1",
+    "examples": [
+      {
+        "zh": "米饭和水。",
+        "pinyin": "Mǐfàn hé shuǐ.",
+        "ja": "ご飯と水。"
+      }
+    ]
+  },
+  {
+    "hanzi": "粥",
+    "pinyin": "zhōu",
+    "meaning": "おかゆ",
+    "unit": "セクション1 ユニット1",
+    "examples": [
+      {
+        "zh": "我喝粥。",
+        "pinyin": "Wǒ hē zhōu.",
+        "ja": "私はおかゆを飲みます。"
+      }
+    ]
+  },
+  {
+    "hanzi": "豆腐",
+    "pinyin": "dòufu",
+    "meaning": "豆腐",
+    "unit": "セクション1 ユニット1",
+    "examples": [
+      {
+        "zh": "豆腐和汤。",
+        "pinyin": "Dòufu hé tāng.",
+        "ja": "豆腐とスープ。"
+      }
+    ]
+  },
+  {
+    "hanzi": "汤",
+    "pinyin": "tāng",
+    "meaning": "スープ",
+    "unit": "セクション1 ユニット1",
+    "examples": [
+      {
+        "zh": "豆腐和汤。",
+        "pinyin": "Dòufu hé tāng.",
+        "ja": "豆腐とスープ。"
+      }
+    ]
+  },
+  {
+    "hanzi": "美国人",
+    "pinyin": "Měiguó rén",
+    "meaning": "アメリカ人",
+    "unit": "セクション1 ユニット2",
+    "examples": [
+      {
+        "zh": "你好，我是美国人。你呢？",
+        "pinyin": "Nǐ hǎo, wǒ shì Měiguó rén. Nǐ ne?",
+        "ja": "やあ、私はアメリカ人です。あなたは？"
+      }
+    ]
+  },
+  {
+    "hanzi": "中国人",
+    "pinyin": "Zhōngguó rén",
+    "meaning": "中国人",
+    "unit": "セクション1 ユニット2",
+    "examples": [
+      {
+        "zh": "我是中国人。",
+        "pinyin": "Wǒ shì Zhōngguó rén.",
+        "ja": "私は中国人です。"
+      }
+    ]
+  },
+  {
+    "hanzi": "日本人",
+    "pinyin": "Rìběn rén",
+    "meaning": "日本人",
+    "unit": "セクション1 ユニット2",
+    "examples": [
+      {
+        "zh": "我是日本人。",
+        "pinyin": "Wǒ shì Rìběn rén.",
+        "ja": "私は日本人です。"
+      }
+    ]
+  },
+  {
+    "hanzi": "你呢",
+    "pinyin": "nǐ ne",
+    "meaning": "あなたは？(聞き返し)",
+    "unit": "セクション1 ユニット2",
+    "examples": [
+      {
+        "zh": "我是中国人。你呢？",
+        "pinyin": "Wǒ shì Zhōngguó rén. Nǐ ne?",
+        "ja": "私は中国人です。あなたは？"
+      }
+    ]
+  },
+  {
+    "hanzi": "中国",
+    "pinyin": "Zhōngguó",
+    "meaning": "中国",
+    "unit": "セクション1 ユニット2",
+    "examples": [
+      {
+        "zh": "我在中国。",
+        "pinyin": "Wǒ zài Zhōngguó.",
+        "ja": "私は中国にいます。"
+      }
+    ]
+  },
+  {
+    "hanzi": "英国",
+    "pinyin": "Yīngguó",
+    "meaning": "イギリス",
+    "unit": "セクション1 ユニット2",
+    "examples": [
+      {
+        "zh": "他是英国人。",
+        "pinyin": "Tā shì Yīngguó rén.",
+        "ja": "彼はイギリス人です。"
+      }
+    ]
+  },
+  {
+    "hanzi": "英语老师",
+    "pinyin": "Yīngyǔ lǎoshī",
+    "meaning": "英語の先生",
+    "unit": "セクション1 ユニット3",
+    "examples": [
+      {
+        "zh": "我是英语老师。",
+        "pinyin": "Wǒ shì Yīngyǔ lǎoshī.",
+        "ja": "私は英語の先生です。"
+      }
+    ]
+  },
+  {
+    "hanzi": "医生",
+    "pinyin": "yīshēng",
+    "meaning": "医者",
+    "unit": "セクション1 ユニット3",
+    "examples": [
+      {
+        "zh": "你是医生吗？",
+        "pinyin": "Nǐ shì yīshēng ma?",
+        "ja": "あなたは医者ですか?"
+      },
+      {
+        "zh": "他的妻子是医生。",
+        "pinyin": "Tā de qīzi shì yīshēng.",
+        "ja": "彼の妻は医者です。"
+      }
+    ]
+  },
+  {
+    "hanzi": "律师",
+    "pinyin": "lǜshī",
+    "meaning": "法律家、弁護士",
+    "unit": "セクション1 ユニット3",
+    "examples": [
+      {
+        "zh": "我是律师。",
+        "pinyin": "Wǒ shì lǜshī.",
+        "ja": "私は法律家です。"
+      }
+    ]
+  },
+  {
+    "hanzi": "中学生",
+    "pinyin": "zhōngxuéshēng",
+    "meaning": "中学生",
+    "unit": "セクション1 ユニット3",
+    "examples": [
+      {
+        "zh": "我是中学生。",
+        "pinyin": "Wǒ shì zhōngxuéshēng.",
+        "ja": "私は中学生です。"
+      }
+    ]
+  },
+  {
+    "hanzi": "大学生",
+    "pinyin": "dàxuéshēng",
+    "meaning": "大学生",
+    "unit": "セクション1 ユニット3",
+    "examples": [
+      {
+        "zh": "我是大学生。",
+        "pinyin": "Wǒ shì dàxuéshēng.",
+        "ja": "私は大学生です。"
+      },
+      {
+        "zh": "我是大学生。你呢？",
+        "pinyin": "Wǒ shì dàxuéshēng. Nǐ ne?",
+        "ja": "私は大学生です。あなたは？"
+      },
+      {
+        "zh": "我儿子是大学生。",
+        "pinyin": "Wǒ érzi shì dàxuéshēng.",
+        "ja": "私の息子は大学生です。"
+      }
+    ]
+  },
+  {
+    "hanzi": "课",
+    "pinyin": "kè",
+    "meaning": "授業、課",
+    "unit": "セクション1 ユニット4",
+    "examples": [
+      {
+        "zh": "我喜欢中文课。",
+        "pinyin": "Wǒ xǐhuan Zhōngwén kè.",
+        "ja": "私は中国語の授業が好きです。"
+      }
+    ]
+  },
+  {
+    "hanzi": "中文课",
+    "pinyin": "Zhōngwén kè",
+    "meaning": "中国語の授業",
+    "unit": "セクション1 ユニット4",
+    "examples": [
+      {
+        "zh": "我喜欢中文课。",
+        "pinyin": "Wǒ xǐhuan Zhōngwén kè.",
+        "ja": "私は中国語の授業が好きです。"
+      }
+    ]
+  },
+  {
+    "hanzi": "英语课",
+    "pinyin": "Yīngyǔ kè",
+    "meaning": "英語の授業",
+    "unit": "セクション1 ユニット4",
+    "examples": [
+      {
+        "zh": "是的，我上英语课。",
+        "pinyin": "Shì de, wǒ shàng Yīngyǔ kè.",
+        "ja": "はい、私は英語の授業に通っています。"
+      }
+    ]
+  },
+  {
+    "hanzi": "音乐课",
+    "pinyin": "yīnyuè kè",
+    "meaning": "音楽の授業",
+    "unit": "セクション1 ユニット4",
+    "examples": [
+      {
+        "zh": "你喜欢音乐课，对吧？",
+        "pinyin": "Nǐ xǐhuan yīnyuè kè, duì ba?",
+        "ja": "あなたは音楽の授業が好きですよね?"
+      }
+    ]
+  },
+  {
+    "hanzi": "喜欢",
+    "pinyin": "xǐhuan",
+    "meaning": "好き、好む",
+    "unit": "セクション1 ユニット4",
+    "examples": [
+      {
+        "zh": "我喜欢中文课。",
+        "pinyin": "Wǒ xǐhuan Zhōngwén kè.",
+        "ja": "私は中国語の授業が好きです。"
+      }
+    ]
+  },
+  {
+    "hanzi": "上",
+    "pinyin": "shàng",
+    "meaning": "(授業に)出る、通う",
+    "unit": "セクション1 ユニット4",
+    "examples": [
+      {
+        "zh": "是的，我上英语课。",
+        "pinyin": "Shì de, wǒ shàng Yīngyǔ kè.",
+        "ja": "はい、私は英語の授業に通っています。"
+      }
+    ]
+  },
+  {
+    "hanzi": "对吧",
+    "pinyin": "duì ba",
+    "meaning": "〜ですよね(確認)",
+    "unit": "セクション1 ユニット4",
+    "examples": [
+      {
+        "zh": "你喜欢音乐课，对吧？",
+        "pinyin": "Nǐ xǐhuan yīnyuè kè, duì ba?",
+        "ja": "あなたは音楽の授業が好きですよね?"
+      }
+    ]
+  },
+  {
+    "hanzi": "的",
+    "pinyin": "de",
+    "meaning": "〜の(所有)",
+    "unit": "セクション1 ユニット5",
+    "examples": [
+      {
+        "zh": "这是我的爸爸。",
+        "pinyin": "Zhè shì wǒ de bàba.",
+        "ja": "こちらは私の父です。"
+      },
+      {
+        "zh": "他的妻子是医生。",
+        "pinyin": "Tā de qīzi shì yīshēng.",
+        "ja": "彼の妻は医者です。"
+      }
+    ]
+  },
+  {
+    "hanzi": "爸爸",
+    "pinyin": "bàba",
+    "meaning": "お父さん",
+    "unit": "セクション1 ユニット5",
+    "examples": [
+      {
+        "zh": "这是我爸爸。",
+        "pinyin": "Zhè shì wǒ bàba.",
+        "ja": "こちらは私の父です。"
+      }
+    ]
+  },
+  {
+    "hanzi": "儿子",
+    "pinyin": "érzi",
+    "meaning": "息子",
+    "unit": "セクション1 ユニット5",
+    "examples": [
+      {
+        "zh": "我儿子是大学生。",
+        "pinyin": "Wǒ érzi shì dàxuéshēng.",
+        "ja": "私の息子は大学生です。"
+      }
+    ]
+  },
+  {
+    "hanzi": "加拿大人",
+    "pinyin": "Jiānádà rén",
+    "meaning": "カナダ人",
+    "unit": "セクション1 ユニット5",
+    "examples": [
+      {
+        "zh": "他是加拿大人。",
+        "pinyin": "Tā shì Jiānádà rén.",
+        "ja": "彼はカナダ人です。"
+      }
+    ]
+  },
+  {
+    "hanzi": "妻子",
+    "pinyin": "qīzi",
+    "meaning": "妻",
+    "unit": "セクション1 ユニット5",
+    "examples": [
+      {
+        "zh": "他的妻子是医生。",
+        "pinyin": "Tā de qīzi shì yīshēng.",
+        "ja": "彼の妻は医者です。"
+      }
+    ]
+  },
+  {
+    "hanzi": "女儿",
+    "pinyin": "nǚ'ér",
+    "meaning": "娘",
+    "unit": "セクション1 ユニット5",
+    "examples": [
+      {
+        "zh": "你女儿是老师吗？",
+        "pinyin": "Nǐ nǚ'ér shì lǎoshī ma?",
+        "ja": "あなたの娘は先生ですか?"
+      }
+    ]
+  },
+  {
+    "hanzi": "老师",
+    "pinyin": "lǎoshī",
+    "meaning": "先生、教師",
+    "unit": "セクション1 ユニット5",
+    "examples": [
+      {
+        "zh": "你女儿是老师吗？",
+        "pinyin": "Nǐ nǚ'ér shì lǎoshī ma?",
+        "ja": "あなたの娘は先生ですか?"
+      }
     ]
   }
 ]
