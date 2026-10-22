@@ -766,20 +766,20 @@
     "meaning": "夫",
     "examples": [
       {
-        "zh": "我丈夫常去书店。",
-        "pinyin": "Wǒ zhàngfu cháng qù shūdiàn.",
+        "zh": "我丈夫常常去书店。",
+        "pinyin": "Wǒ zhàngfu chángcháng qù shūdiàn.",
         "ja": "私の夫はよく書店に行きます。"
       }
     ]
   },
   {
-    "hanzi": "常",
-    "pinyin": "cháng",
+    "hanzi": "常常",
+    "pinyin": "chángcháng",
     "meaning": "よく、いつも",
     "examples": [
       {
-        "zh": "我常去超市。",
-        "pinyin": "Wǒ cháng qù chāoshì.",
+        "zh": "我常常去超市。",
+        "pinyin": "Wǒ chángcháng qù chāoshì.",
         "ja": "私はよくスーパーに行きます。"
       }
     ]
@@ -790,8 +790,8 @@
     "meaning": "行く",
     "examples": [
       {
-        "zh": "我常去超市。",
-        "pinyin": "Wǒ cháng qù chāoshì.",
+        "zh": "我常常去超市。",
+        "pinyin": "Wǒ chángcháng qù chāoshì.",
         "ja": "私はよくスーパーに行きます。"
       }
     ]
@@ -802,8 +802,8 @@
     "meaning": "書店、本屋",
     "examples": [
       {
-        "zh": "我丈夫常去书店。",
-        "pinyin": "Wǒ zhàngfu cháng qù shūdiàn.",
+        "zh": "我丈夫常常去书店。",
+        "pinyin": "Wǒ zhàngfu chángcháng qù shūdiàn.",
         "ja": "私の夫はよく書店に行きます。"
       }
     ]
@@ -814,8 +814,8 @@
     "meaning": "スーパー",
     "examples": [
       {
-        "zh": "我常去超市。",
-        "pinyin": "Wǒ cháng qù chāoshì.",
+        "zh": "我常常去超市。",
+        "pinyin": "Wǒ chángcháng qù chāoshì.",
         "ja": "私はよくスーパーに行きます。"
       }
     ]
