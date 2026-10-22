@@ -759,5 +759,77 @@
         "ja": "彼女は私の母です。"
       }
     ]
+  },
+  {
+    "hanzi": "丈夫",
+    "pinyin": "zhàngfu",
+    "meaning": "夫",
+    "examples": [
+      {
+        "zh": "我丈夫常去书店。",
+        "pinyin": "Wǒ zhàngfu cháng qù shūdiàn.",
+        "ja": "私の夫はよく書店に行きます。"
+      }
+    ]
+  },
+  {
+    "hanzi": "常",
+    "pinyin": "cháng",
+    "meaning": "よく、いつも",
+    "examples": [
+      {
+        "zh": "我常去超市。",
+        "pinyin": "Wǒ cháng qù chāoshì.",
+        "ja": "私はよくスーパーに行きます。"
+      }
+    ]
+  },
+  {
+    "hanzi": "去",
+    "pinyin": "qù",
+    "meaning": "行く",
+    "examples": [
+      {
+        "zh": "我常去超市。",
+        "pinyin": "Wǒ cháng qù chāoshì.",
+        "ja": "私はよくスーパーに行きます。"
+      }
+    ]
+  },
+  {
+    "hanzi": "书店",
+    "pinyin": "shūdiàn",
+    "meaning": "書店、本屋",
+    "examples": [
+      {
+        "zh": "我丈夫常去书店。",
+        "pinyin": "Wǒ zhàngfu cháng qù shūdiàn.",
+        "ja": "私の夫はよく書店に行きます。"
+      }
+    ]
+  },
+  {
+    "hanzi": "超市",
+    "pinyin": "chāoshì",
+    "meaning": "スーパー",
+    "examples": [
+      {
+        "zh": "我常去超市。",
+        "pinyin": "Wǒ cháng qù chāoshì.",
+        "ja": "私はよくスーパーに行きます。"
+      }
+    ]
+  },
+  {
+    "hanzi": "中国书店",
+    "pinyin": "Zhōngguó shūdiàn",
+    "meaning": "中国書店(中国の書店)",
+    "examples": [
+      {
+        "zh": "这是中国书店。",
+        "pinyin": "Zhè shì Zhōngguó shūdiàn.",
+        "ja": "これは中国書店です。"
+      }
+    ]
   }
 ]
