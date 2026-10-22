@@ -837,5 +837,109 @@
       }
     ],
     "unit": "セクション1 ユニット6"
+  },
+  {
+    "hanzi": "商店",
+    "pinyin": "shāngdiàn",
+    "meaning": "店、商店",
+    "unit": "セクション1 ユニット6",
+    "examples": [
+      {
+        "zh": "我常常去商店。",
+        "pinyin": "Wǒ chángcháng qù shāngdiàn.",
+        "ja": "私はよく店に行きます。"
+      }
+    ]
+  },
+  {
+    "hanzi": "商场",
+    "pinyin": "shāngchǎng",
+    "meaning": "ショッピングモール、百貨店",
+    "unit": "セクション1 ユニット6",
+    "examples": [
+      {
+        "zh": "我丈夫常常去商场。",
+        "pinyin": "Wǒ zhàngfu chángcháng qù shāngchǎng.",
+        "ja": "私の夫はよくショッピングモールに行きます。"
+      }
+    ]
+  },
+  {
+    "hanzi": "市场",
+    "pinyin": "shìchǎng",
+    "meaning": "市場",
+    "unit": "セクション1 ユニット6",
+    "examples": [
+      {
+        "zh": "我常常去市场。",
+        "pinyin": "Wǒ chángcháng qù shìchǎng.",
+        "ja": "私はよく市場に行きます。"
+      }
+    ]
+  },
+  {
+    "hanzi": "咖啡店",
+    "pinyin": "kāfēidiàn",
+    "meaning": "喫茶店、カフェ",
+    "unit": "セクション1 ユニット6",
+    "examples": [
+      {
+        "zh": "我常常去咖啡店。",
+        "pinyin": "Wǒ chángcháng qù kāfēidiàn.",
+        "ja": "私はよくカフェに行きます。"
+      }
+    ]
+  },
+  {
+    "hanzi": "面包店",
+    "pinyin": "miànbāodiàn",
+    "meaning": "パン屋",
+    "unit": "セクション1 ユニット6",
+    "examples": [
+      {
+        "zh": "我常常去面包店。",
+        "pinyin": "Wǒ chángcháng qù miànbāodiàn.",
+        "ja": "私はよくパン屋に行きます。"
+      }
+    ]
+  },
+  {
+    "hanzi": "药店",
+    "pinyin": "yàodiàn",
+    "meaning": "薬局",
+    "unit": "セクション1 ユニット6",
+    "examples": [
+      {
+        "zh": "这是药店。",
+        "pinyin": "Zhè shì yàodiàn.",
+        "ja": "これは薬局です。"
+      }
+    ]
+  },
+  {
+    "hanzi": "花店",
+    "pinyin": "huādiàn",
+    "meaning": "花屋",
+    "unit": "セクション1 ユニット6",
+    "examples": [
+      {
+        "zh": "我妈妈常常去花店。",
+        "pinyin": "Wǒ māma chángcháng qù huādiàn.",
+        "ja": "私の母はよく花屋に行きます。"
+      }
+    ]
+  },
+  {
+    "hanzi": "餐厅",
+    "pinyin": "cāntīng",
+    "meaning": "レストラン",
+    "unit": "セクション1 ユニット6",
+    "examples": [
+      {
+        "zh": "我们常常去餐厅。",
+        "pinyin": "Wǒmen chángcháng qù cāntīng.",
+        "ja": "私たちはよくレストランに行きます。"
+      }
+    ]
   }
 ]
