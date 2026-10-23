@@ -3,6 +3,7 @@ const search = document.getElementById("search");
 const count = document.getElementById("count");
 const nav = document.getElementById("nav");
 let words = [];
+let activeUnit = null; // null = すべて
 
 const esc = (s = "") => s.replace(/[&<>"]/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
 
@@ -42,7 +43,7 @@ const card = w => `
 function groupByUnit(items) {
   const groups = new Map();
   for (const w of items) {
-    const key = w.unit || "その他";
+    const key = unitOf(w);
     if (!groups.has(key)) groups.set(key, []);
     groups.get(key).push(w);
   }
@@ -54,28 +55,36 @@ function groupByUnit(items) {
   return [...groups];
 }
 
+const unitOf = w => w.unit || "その他";
+
+function renderNav() {
+  const names = groupByUnit(words).map(([name]) => name);
+  nav.hidden = names.length < 2;
+  nav.innerHTML = [null, ...names].map(name => `
+    <button type="button" data-unit="${name === null ? "" : esc(name)}"
+      class="${name === activeUnit ? "active" : ""}"
+      aria-pressed="${name === activeUnit}">${name === null ? "すべて" : esc(name)}</button>`).join("");
+}
+
 function render(items) {
   count.textContent = `${items.length} 語`;
-  const groups = groupByUnit(items);
-  nav.hidden = groups.length < 2;
-  nav.innerHTML = groups.map(([name], i) =>
-    `<button type="button" data-target="unit-${i}">${esc(name)}</button>`).join("");
-  list.innerHTML = groups.map(([name, ws], i) => `
+  list.innerHTML = groupByUnit(items).map(([name, ws]) => `
     <section>
-      <h2 id="unit-${i}">${esc(name)} <small>${ws.length}語</small></h2>
+      <h2>${esc(name)} <small>${ws.length}語</small></h2>
       ${ws.map(card).join("")}
     </section>`).join("");
 }
 
 function filter() {
   const q = search.value.trim().toLowerCase();
-  render(!q ? words : words.filter(w =>
-    JSON.stringify(w).toLowerCase().includes(q)));
+  render(words.filter(w =>
+    (activeUnit === null || unitOf(w) === activeUnit) &&
+    (!q || JSON.stringify(w).toLowerCase().includes(q))));
 }
 
 fetch("data/words.json", { cache: "no-cache" })
   .then(r => r.json())
-  .then(data => { words = data; filter(); })
+  .then(data => { words = data; renderNav(); filter(); })
   .catch(() => { list.textContent = "データを読み込めませんでした。"; });
 
 search.addEventListener("input", filter);
@@ -89,7 +98,10 @@ list.addEventListener("click", e => {
 if ("speechSynthesis" in window) speechSynthesis.getVoices();
 
 nav.addEventListener("click", e => {
-  const b = e.target.closest("button[data-target]");
-  if (b) document.getElementById(b.dataset.target)
-    .scrollIntoView({ behavior: "smooth", block: "start" });
+  const b = e.target.closest("button[data-unit]");
+  if (!b) return;
+  activeUnit = b.dataset.unit || null;
+  renderNav();
+  filter();
+  window.scrollTo({ top: 0 });
 });
