@@ -1,6 +1,7 @@
 const list = document.getElementById("list");
 const search = document.getElementById("search");
 const count = document.getElementById("count");
+const nav = document.getElementById("nav");
 let words = [];
 
 const esc = (s = "") => s.replace(/[&<>"]/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
@@ -23,22 +24,47 @@ function speak(text, rate) {
   speechSynthesis.speak(u);
 }
 
+const card = w => `
+  <article class="card">
+    <span class="hanzi">${esc(w.hanzi)}</span>
+    <span class="pinyin">${esc(w.pinyin)}</span>
+    ${speakBtns(w.hanzi)}
+    <div class="meaning">${esc(w.meaning)}</div>
+    ${(w.examples || []).map(e => `
+      <div class="ex">
+        <div class="zh">${esc(e.zh)} ${speakBtns(e.zh)}</div>
+        <div class="py">${esc(e.pinyin)}</div>
+        <div class="ja">${esc(e.ja)}</div>
+      </div>`).join("")}
+  </article>`;
+
+// unit ごとにまとめる(初出順。unit が無い単語は最後の「その他」)
+function groupByUnit(items) {
+  const groups = new Map();
+  for (const w of items) {
+    const key = w.unit || "その他";
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(w);
+  }
+  if (groups.has("その他")) {
+    const other = groups.get("その他");
+    groups.delete("その他");
+    groups.set("その他", other);
+  }
+  return [...groups];
+}
+
 function render(items) {
   count.textContent = `${items.length} 語`;
-  list.innerHTML = items.map(w => `
-    <article class="card">
-      <span class="hanzi">${esc(w.hanzi)}</span>
-      <span class="pinyin">${esc(w.pinyin)}</span>
-      ${speakBtns(w.hanzi)}
-      ${w.unit ? `<span class="unit">${esc(w.unit)}</span>` : ""}
-      <div class="meaning">${esc(w.meaning)}</div>
-      ${(w.examples || []).map(e => `
-        <div class="ex">
-          <div class="zh">${esc(e.zh)} ${speakBtns(e.zh)}</div>
-          <div class="py">${esc(e.pinyin)}</div>
-          <div class="ja">${esc(e.ja)}</div>
-        </div>`).join("")}
-    </article>`).join("");
+  const groups = groupByUnit(items);
+  nav.hidden = groups.length < 2;
+  nav.innerHTML = groups.map(([name], i) =>
+    `<button type="button" data-target="unit-${i}">${esc(name)}</button>`).join("");
+  list.innerHTML = groups.map(([name, ws], i) => `
+    <section>
+      <h2 id="unit-${i}">${esc(name)} <small>${ws.length}語</small></h2>
+      ${ws.map(card).join("")}
+    </section>`).join("");
 }
 
 function filter() {
@@ -61,3 +87,9 @@ list.addEventListener("click", e => {
 
 // 音声一覧は非同期に読み込まれるブラウザがあるため、先に取得を促しておく
 if ("speechSynthesis" in window) speechSynthesis.getVoices();
+
+nav.addEventListener("click", e => {
+  const b = e.target.closest("button[data-target]");
+  if (b) document.getElementById(b.dataset.target)
+    .scrollIntoView({ behavior: "smooth", block: "start" });
+});

@@ -23,3 +23,12 @@ header p { color:var(--sub); margin:4px 0; }
 .speak { border:1px solid var(--border); background:var(--card); border-radius:8px;
   padding:2px 8px; margin-left:4px; font-size:14px; cursor:pointer; vertical-align:middle; }
 .speak:hover { border-color:var(--accent); }
+
+#nav { position:sticky; top:0; z-index:10; background:var(--bg); border-bottom:1px solid var(--border);
+  margin:8px -16px 0; padding:8px 16px; display:flex; gap:8px; overflow-x:auto; white-space:nowrap; }
+#nav[hidden] { display:none; }
+#nav button { flex:none; border:1px solid var(--border); background:var(--card); color:var(--text);
+  border-radius:99px; padding:6px 12px; font-size:14px; cursor:pointer; }
+#nav button:active { border-color:var(--accent); }
+main h2 { margin:24px 0 0; font-size:18px; scroll-margin-top:56px; }
+main h2 small { color:var(--sub); font-weight:normal; font-size:13px; }
