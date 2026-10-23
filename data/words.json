@@ -959,5 +959,44 @@
         "ja": "私たちはよくレストランで食事をします。"
       }
     ]
+  },
+  {
+    "hanzi": "中国菜",
+    "pinyin": "Zhōngguó cài",
+    "meaning": "中国料理",
+    "unit": "セクション1 ユニット6",
+    "examples": [
+      {
+        "zh": "我常常吃中国菜。",
+        "pinyin": "Wǒ chángcháng chī Zhōngguó cài.",
+        "ja": "私はよく中国料理を食べます。"
+      }
+    ]
+  },
+  {
+    "hanzi": "日本菜",
+    "pinyin": "Rìběn cài",
+    "meaning": "日本料理",
+    "unit": "セクション1 ユニット6",
+    "examples": [
+      {
+        "zh": "我丈夫喜欢日本菜。",
+        "pinyin": "Wǒ zhàngfu xǐhuan Rìběn cài.",
+        "ja": "私の夫は日本料理が好きです。"
+      }
+    ]
+  },
+  {
+    "hanzi": "英国菜",
+    "pinyin": "Yīngguó cài",
+    "meaning": "イギリス料理",
+    "unit": "セクション1 ユニット6",
+    "examples": [
+      {
+        "zh": "我们常常在餐厅吃英国菜。",
+        "pinyin": "Wǒmen chángcháng zài cāntīng chī Yīngguó cài.",
+        "ja": "私たちはよくレストランでイギリス料理を食べます。"
+      }
+    ]
   }
 ]
