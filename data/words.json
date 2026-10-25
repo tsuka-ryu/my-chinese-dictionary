@@ -1021,6 +1021,35 @@
         "zh": "我喜欢吃零食。",
         "pinyin": "Wǒ xǐhuan chī língshí.",
         "ja": "私はおやつを食べるのが好きです。"
+      },
+      {
+        "zh": "我不常买零食。",
+        "pinyin": "Wǒ bù cháng mǎi língshí.",
+        "ja": "私はおやつをあまり買いません。"
+      }
+    ]
+  },
+  {
+    "hanzi": "买",
+    "pinyin": "mǎi",
+    "meaning": "買う",
+    "examples": [
+      {
+        "zh": "我不常买零食。",
+        "pinyin": "Wǒ bù cháng mǎi língshí.",
+        "ja": "私はおやつをあまり買いません。"
+      }
+    ]
+  },
+  {
+    "hanzi": "不常",
+    "pinyin": "bù cháng",
+    "meaning": "あまり〜ない、あまり〜しない",
+    "examples": [
+      {
+        "zh": "我不常买零食。",
+        "pinyin": "Wǒ bù cháng mǎi língshí.",
+        "ja": "私はおやつをあまり買いません。"
       }
     ]
   }
