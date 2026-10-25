@@ -1013,14 +1013,14 @@
     ]
   },
   {
-    "hanzi": "点心",
-    "pinyin": "diǎnxin",
-    "meaning": "お菓子、軽食",
+    "hanzi": "零食",
+    "pinyin": "língshí",
+    "meaning": "おやつ、間食",
     "examples": [
       {
-        "zh": "我喜欢吃点心。",
-        "pinyin": "Wǒ xǐhuan chī diǎnxin.",
-        "ja": "私はお菓子を食べるのが好きです。"
+        "zh": "我喜欢吃零食。",
+        "pinyin": "Wǒ xǐhuan chī língshí.",
+        "ja": "私はおやつを食べるのが好きです。"
       }
     ]
   }
