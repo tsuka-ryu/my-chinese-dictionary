@@ -1052,5 +1052,41 @@
         "ja": "私はおやつをあまり買いません。"
       }
     ]
+  },
+  {
+    "hanzi": "看书",
+    "pinyin": "kàn shū",
+    "meaning": "本を見る、読書する",
+    "examples": [
+      {
+        "zh": "我喜欢看书。",
+        "pinyin": "Wǒ xǐhuan kàn shū.",
+        "ja": "私は本を読む(見る)のが好きです。"
+      }
+    ]
+  },
+  {
+    "hanzi": "看",
+    "pinyin": "kàn",
+    "meaning": "見る、読む",
+    "examples": [
+      {
+        "zh": "我喜欢看书。",
+        "pinyin": "Wǒ xǐhuan kàn shū.",
+        "ja": "私は本を読む(見る)のが好きです。"
+      }
+    ]
+  },
+  {
+    "hanzi": "书",
+    "pinyin": "shū",
+    "meaning": "本",
+    "examples": [
+      {
+        "zh": "这是我的书。",
+        "pinyin": "Zhè shì wǒ de shū.",
+        "ja": "これは私の本です。"
+      }
+    ]
   }
 ]
