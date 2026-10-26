@@ -17,6 +17,8 @@ function speak(text, rate) {
   const voice = voices.find(v => v.lang.replace("_", "-") === "zh-CN") ||
     voices.find(v => v.lang.toLowerCase().startsWith("zh"));
   if (voices.length && !voice) return alert("この端末では中国語の音声が使えません。");
+  // iOS Safari: 消音モードでも鳴らすため、再生扱いのオーディオセッションにする(非対応ブラウザでは何もしない)
+  try { if (navigator.audioSession) navigator.audioSession.type = "playback"; } catch {}
   const u = new SpeechSynthesisUtterance(text);
   u.lang = "zh-CN";
   if (voice) u.voice = voice;
