@@ -1088,5 +1088,41 @@
         "ja": "これは私の本です。"
       }
     ]
+  },
+  {
+    "hanzi": "韩语",
+    "pinyin": "Hányǔ",
+    "meaning": "韓国語",
+    "examples": [
+      {
+        "zh": "我说韩语。",
+        "pinyin": "Wǒ shuō Hányǔ.",
+        "ja": "私は韓国語を話します。"
+      }
+    ]
+  },
+  {
+    "hanzi": "韩语书",
+    "pinyin": "Hányǔ shū",
+    "meaning": "韓国語の本",
+    "examples": [
+      {
+        "zh": "我喜欢看韩语书。",
+        "pinyin": "Wǒ xǐhuan kàn Hányǔ shū.",
+        "ja": "私は韓国語の本を読むのが好きです。"
+      }
+    ]
+  },
+  {
+    "hanzi": "英语书",
+    "pinyin": "Yīngyǔ shū",
+    "meaning": "英語の本",
+    "examples": [
+      {
+        "zh": "我常常看英语书。",
+        "pinyin": "Wǒ chángcháng kàn Yīngyǔ shū.",
+        "ja": "私はよく英語の本を読みます。"
+      }
+    ]
   }
 ]
